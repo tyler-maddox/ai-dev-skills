@@ -1,6 +1,6 @@
-# claude-dev-skills
+# ai-dev-skills
 
-Claude Code skills and specialist agents for a repeatable design → development pipeline.
+Agent skills and specialist personas for a repeatable design → development pipeline.
 
 Two orchestrator skills drive the pipeline. Each walks you through numbered stages, spawning specialist agents from `agents/roster.md` and invoking the supporting skills.
 
@@ -11,8 +11,8 @@ Works with **Claude Code** and **OpenAI Codex CLI** — see [Using this with Cod
 Skills and agents live in separate directories under `~/.claude/`:
 
 ```bash
-git clone https://github.com/tyler-maddox/claude-dev-skills.git
-cd claude-dev-skills
+git clone https://github.com/tyler-maddox/ai-dev-skills.git
+cd ai-dev-skills
 
 mkdir -p ~/.claude/skills ~/.claude/agents
 cp -R dev-workflow design-workflow grill-me tdd improve-codebase-architecture ~/.claude/skills/
@@ -71,8 +71,8 @@ Codex also reads project-scoped skills from `.agents/skills/` and project-scoped
 ### Install (Codex)
 
 ```bash
-git clone https://github.com/tyler-maddox/claude-dev-skills.git
-cd claude-dev-skills
+git clone https://github.com/tyler-maddox/ai-dev-skills.git
+cd ai-dev-skills
 
 # Skills — same files, Codex's skills directory
 mkdir -p ~/.agents/skills
